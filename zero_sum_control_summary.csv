@@ -1,0 +1,10 @@
+degradation,comparison,mean_diff_dB,p_t,n
+haze,adaptive_zero_sum - no_detail,-0.10102837492021546,0.0665324448444466,14
+haze,adaptive_zero_sum - adaptive_original,-1.368428042523668,0.30329824022899093,14
+haze,adaptive_original - no_detail,1.2673996676034522,0.3306344234237272,14
+underwater,adaptive_zero_sum - no_detail,-0.12695432963335765,0.13033317974918868,14
+underwater,adaptive_zero_sum - adaptive_original,2.6843098459602865,0.001744218916499189,14
+underwater,adaptive_original - no_detail,-2.8112641755936445,0.0015268364945284663,14
+lowlight,adaptive_zero_sum - no_detail,-0.09795631150382356,0.04646917933925009,14
+lowlight,adaptive_zero_sum - adaptive_original,1.3414267371980486,0.0229278276982362,14
+lowlight,adaptive_original - no_detail,-1.4393830487018724,0.014365639418617859,14
