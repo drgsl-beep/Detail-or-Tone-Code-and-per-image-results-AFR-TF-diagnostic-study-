@@ -1,0 +1,547 @@
+deg,img,kernel,kind,PSNR
+haze,astronaut,no stage,none,11.92527864275583
+haze,astronaut,implemented,adaptive,11.729605306268587
+haze,astronaut,implemented,fixed1,11.389755273775995
+haze,astronaut,implemented zero-sum,adaptive,11.918958181208584
+haze,astronaut,implemented zero-sum,fixed1,11.922977474307118
+haze,astronaut,GL 4-dir K=3,adaptive,11.988169056195087
+haze,astronaut,GL 4-dir K=3,fixed1,11.922977474307118
+haze,astronaut,GL 4-dir K=3 zero-sum,adaptive,11.920852411664404
+haze,astronaut,GL 4-dir K=3 zero-sum,fixed1,11.922977474307118
+haze,astronaut,GL 8-dir K=3,adaptive,11.999865391741928
+haze,astronaut,GL 8-dir K=3,fixed1,11.932741004722615
+haze,astronaut,GL 8-dir K=3 zero-sum,adaptive,11.930675581712485
+haze,astronaut,GL 8-dir K=3 zero-sum,fixed1,11.932741004722615
+haze,chelsea,no stage,none,15.513427692720587
+haze,chelsea,implemented,adaptive,17.970576852157755
+haze,chelsea,implemented,fixed1,16.546044550441856
+haze,chelsea,implemented zero-sum,adaptive,15.182915079933803
+haze,chelsea,implemented zero-sum,fixed1,15.253453697817267
+haze,chelsea,GL 4-dir K=3,adaptive,16.6537440332846
+haze,chelsea,GL 4-dir K=3,fixed1,15.253453697817267
+haze,chelsea,GL 4-dir K=3 zero-sum,adaptive,15.202313539878709
+haze,chelsea,GL 4-dir K=3 zero-sum,fixed1,15.253453697817267
+haze,chelsea,GL 8-dir K=3,adaptive,16.572842570867707
+haze,chelsea,GL 8-dir K=3,fixed1,15.323955105688293
+haze,chelsea,GL 8-dir K=3 zero-sum,adaptive,15.304260690622511
+haze,chelsea,GL 8-dir K=3 zero-sum,fixed1,15.323955105688293
+haze,coffee,no stage,none,12.81433683506759
+haze,coffee,implemented,adaptive,13.704791082514378
+haze,coffee,implemented,fixed1,13.32464278120796
+haze,coffee,implemented zero-sum,adaptive,12.788810153240442
+haze,coffee,implemented zero-sum,fixed1,12.797723907565663
+haze,coffee,GL 4-dir K=3,adaptive,12.808180992672561
+haze,coffee,GL 4-dir K=3,fixed1,12.797723907565663
+haze,coffee,GL 4-dir K=3 zero-sum,adaptive,12.792719613825408
+haze,coffee,GL 4-dir K=3 zero-sum,fixed1,12.797723907565663
+haze,coffee,GL 8-dir K=3,adaptive,12.805242426125158
+haze,coffee,GL 8-dir K=3,fixed1,12.801366753805661
+haze,coffee,GL 8-dir K=3 zero-sum,adaptive,12.798539651610865
+haze,coffee,GL 8-dir K=3 zero-sum,fixed1,12.801366753805661
+haze,rocket,no stage,none,10.83527351176786
+haze,rocket,implemented,adaptive,15.141854949695153
+haze,rocket,implemented,fixed1,16.233026077313713
+haze,rocket,implemented zero-sum,adaptive,10.808173191304078
+haze,rocket,implemented zero-sum,fixed1,10.813735419116451
+haze,rocket,GL 4-dir K=3,adaptive,11.39885813015087
+haze,rocket,GL 4-dir K=3,fixed1,10.813735419116451
+haze,rocket,GL 4-dir K=3 zero-sum,adaptive,10.808925537724164
+haze,rocket,GL 4-dir K=3 zero-sum,fixed1,10.813735419116451
+haze,rocket,GL 8-dir K=3,adaptive,11.393095988026243
+haze,rocket,GL 8-dir K=3,fixed1,10.815048010186558
+haze,rocket,GL 8-dir K=3 zero-sum,adaptive,10.814536422767127
+haze,rocket,GL 8-dir K=3 zero-sum,fixed1,10.815048010186558
+haze,immunohistochemistry,no stage,none,17.908470496964245
+haze,immunohistochemistry,implemented,adaptive,11.904410750625754
+haze,immunohistochemistry,implemented,fixed1,10.653274255489293
+haze,immunohistochemistry,implemented zero-sum,adaptive,17.588391920108386
+haze,immunohistochemistry,implemented zero-sum,fixed1,17.672378134518443
+haze,immunohistochemistry,GL 4-dir K=3,adaptive,16.22474815342302
+haze,immunohistochemistry,GL 4-dir K=3,fixed1,17.672378134518443
+haze,immunohistochemistry,GL 4-dir K=3 zero-sum,adaptive,17.635174531836103
+haze,immunohistochemistry,GL 4-dir K=3 zero-sum,fixed1,17.672378134518443
+haze,immunohistochemistry,GL 8-dir K=3,adaptive,16.5096614321893
+haze,immunohistochemistry,GL 8-dir K=3,fixed1,17.732638596637507
+haze,immunohistochemistry,GL 8-dir K=3 zero-sum,adaptive,17.694599154913384
+haze,immunohistochemistry,GL 8-dir K=3 zero-sum,fixed1,17.732638596637507
+haze,retina,no stage,none,10.50812687544303
+haze,retina,implemented,adaptive,12.83770024135473
+haze,retina,implemented,fixed1,12.755122802596969
+haze,retina,implemented zero-sum,adaptive,10.336790581409367
+haze,retina,implemented zero-sum,fixed1,10.345250685158527
+haze,retina,GL 4-dir K=3,adaptive,11.682949345934464
+haze,retina,GL 4-dir K=3,fixed1,10.345250685158527
+haze,retina,GL 4-dir K=3 zero-sum,adaptive,10.341642135646405
+haze,retina,GL 4-dir K=3 zero-sum,fixed1,10.345250685158527
+haze,retina,GL 8-dir K=3,adaptive,11.683429758590965
+haze,retina,GL 8-dir K=3,fixed1,10.355303410675438
+haze,retina,GL 8-dir K=3 zero-sum,adaptive,10.352699196611281
+haze,retina,GL 8-dir K=3 zero-sum,fixed1,10.355303410675438
+haze,brick,no stage,none,15.59856988189934
+haze,brick,implemented,adaptive,21.671221843559373
+haze,brick,implemented,fixed1,19.22591467366101
+haze,brick,implemented zero-sum,adaptive,15.488871877474725
+haze,brick,implemented zero-sum,fixed1,15.471697163237323
+haze,brick,GL 4-dir K=3,adaptive,17.537864599538793
+haze,brick,GL 4-dir K=3,fixed1,15.471697163237323
+haze,brick,GL 4-dir K=3 zero-sum,adaptive,15.473346206680302
+haze,brick,GL 4-dir K=3 zero-sum,fixed1,15.471697163237323
+haze,brick,GL 8-dir K=3,adaptive,17.443249017259713
+haze,brick,GL 8-dir K=3,fixed1,15.495067332160751
+haze,brick,GL 8-dir K=3 zero-sum,adaptive,15.499689484648098
+haze,brick,GL 8-dir K=3 zero-sum,fixed1,15.495067332160751
+haze,grass,no stage,none,13.91468044515221
+haze,grass,implemented,adaptive,18.303231807820055
+haze,grass,implemented,fixed1,17.08574809586336
+haze,grass,implemented zero-sum,adaptive,13.96734636187374
+haze,grass,implemented zero-sum,fixed1,13.963249393193314
+haze,grass,GL 4-dir K=3,adaptive,13.889158445623098
+haze,grass,GL 4-dir K=3,fixed1,13.963249393193314
+haze,grass,GL 4-dir K=3 zero-sum,adaptive,13.967795090821799
+haze,grass,GL 4-dir K=3 zero-sum,fixed1,13.963249393193314
+haze,grass,GL 8-dir K=3,adaptive,13.929057657528126
+haze,grass,GL 8-dir K=3,fixed1,13.991573498563902
+haze,grass,GL 8-dir K=3 zero-sum,adaptive,13.996403590336438
+haze,grass,GL 8-dir K=3 zero-sum,fixed1,13.991573498563902
+haze,text,no stage,none,15.763869515552901
+haze,text,implemented,adaptive,18.837559947097674
+haze,text,implemented,fixed1,17.03131185809354
+haze,text,implemented zero-sum,adaptive,15.422100285649726
+haze,text,implemented zero-sum,fixed1,15.510993555942685
+haze,text,GL 4-dir K=3,adaptive,17.833590266290493
+haze,text,GL 4-dir K=3,fixed1,15.510993555942685
+haze,text,GL 4-dir K=3 zero-sum,adaptive,15.432486724115446
+haze,text,GL 4-dir K=3 zero-sum,fixed1,15.510993555942685
+haze,text,GL 8-dir K=3,adaptive,17.791712754012117
+haze,text,GL 8-dir K=3,fixed1,15.58754425054445
+haze,text,GL 8-dir K=3 zero-sum,adaptive,15.496341281683518
+haze,text,GL 8-dir K=3 zero-sum,fixed1,15.58754425054445
+haze,page,no stage,none,16.8319593982852
+haze,page,implemented,adaptive,10.116009887520455
+haze,page,implemented,fixed1,9.26169853385776
+haze,page,implemented zero-sum,adaptive,17.113240411782918
+haze,page,implemented zero-sum,fixed1,17.14454080145201
+haze,page,GL 4-dir K=3,adaptive,14.781779923402782
+haze,page,GL 4-dir K=3,fixed1,17.14454080145201
+haze,page,GL 4-dir K=3 zero-sum,adaptive,17.131108016446944
+haze,page,GL 4-dir K=3 zero-sum,fixed1,17.14454080145201
+haze,page,GL 8-dir K=3,adaptive,15.083005564594314
+haze,page,GL 8-dir K=3,fixed1,17.226532019764026
+haze,page,GL 8-dir K=3 zero-sum,adaptive,17.212292080738113
+haze,page,GL 8-dir K=3 zero-sum,fixed1,17.226532019764026
+haze,moon,no stage,none,14.332168818291084
+haze,moon,implemented,adaptive,24.5831646035818
+haze,moon,implemented,fixed1,23.087009109288505
+haze,moon,implemented zero-sum,adaptive,13.947676869322779
+haze,moon,implemented zero-sum,fixed1,14.05245266895358
+haze,moon,GL 4-dir K=3,adaptive,17.036317044888463
+haze,moon,GL 4-dir K=3,fixed1,14.05245266895358
+haze,moon,GL 4-dir K=3 zero-sum,adaptive,13.993901177917902
+haze,moon,GL 4-dir K=3 zero-sum,fixed1,14.05245266895358
+haze,moon,GL 8-dir K=3,adaptive,16.770520989090322
+haze,moon,GL 8-dir K=3,fixed1,14.129561650144119
+haze,moon,GL 8-dir K=3 zero-sum,adaptive,14.08924374063826
+haze,moon,GL 8-dir K=3 zero-sum,fixed1,14.129561650144119
+haze,hubble_deep_field,no stage,none,6.8135532457393495
+haze,hubble_deep_field,implemented,adaptive,9.647255112046544
+haze,hubble_deep_field,implemented,fixed1,9.79112792836119
+haze,hubble_deep_field,implemented zero-sum,adaptive,6.7978370956293475
+haze,hubble_deep_field,implemented zero-sum,fixed1,6.801318621662228
+haze,hubble_deep_field,GL 4-dir K=3,adaptive,7.333173255417879
+haze,hubble_deep_field,GL 4-dir K=3,fixed1,6.801318621662228
+haze,hubble_deep_field,GL 4-dir K=3 zero-sum,adaptive,6.799435745999846
+haze,hubble_deep_field,GL 4-dir K=3 zero-sum,fixed1,6.801318621662228
+haze,hubble_deep_field,GL 8-dir K=3,adaptive,7.250044773533553
+haze,hubble_deep_field,GL 8-dir K=3,fixed1,6.805469292296806
+haze,hubble_deep_field,GL 8-dir K=3 zero-sum,adaptive,6.80378821767558
+haze,hubble_deep_field,GL 8-dir K=3 zero-sum,fixed1,6.805469292296806
+haze,horse,no stage,none,10.199024228410767
+haze,horse,implemented,adaptive,6.803269098676704
+haze,horse,implemented,fixed1,6.083965591648721
+haze,horse,implemented zero-sum,adaptive,10.239584944738693
+haze,horse,implemented zero-sum,fixed1,10.243776191964242
+haze,horse,GL 4-dir K=3,adaptive,9.765191775968802
+haze,horse,GL 4-dir K=3,fixed1,10.243776191964242
+haze,horse,GL 4-dir K=3 zero-sum,adaptive,10.241660538937808
+haze,horse,GL 4-dir K=3 zero-sum,fixed1,10.243776191964242
+haze,horse,GL 8-dir K=3,adaptive,9.72825700369682
+haze,horse,GL 8-dir K=3,fixed1,10.263216015984069
+haze,horse,GL 8-dir K=3 zero-sum,adaptive,10.258967133432524
+haze,horse,GL 8-dir K=3 zero-sum,fixed1,10.263216015984069
+haze,camera,no stage,none,14.746885227171214
+haze,camera,implemented,adaptive,12.19856867875058
+haze,camera,implemented,fixed1,11.44713553434965
+haze,camera,implemented zero-sum,adaptive,14.6905306126616
+haze,camera,implemented zero-sum,fixed1,14.69615819221591
+haze,camera,GL 4-dir K=3,adaptive,14.201014026373688
+haze,camera,GL 4-dir K=3,fixed1,14.69615819221591
+haze,camera,GL 4-dir K=3 zero-sum,adaptive,14.694824384122123
+haze,camera,GL 4-dir K=3 zero-sum,fixed1,14.69615819221591
+haze,camera,GL 8-dir K=3,adaptive,14.29343013845777
+haze,camera,GL 8-dir K=3,fixed1,14.717863362715537
+haze,camera,GL 8-dir K=3 zero-sum,adaptive,14.71775226753005
+haze,camera,GL 8-dir K=3 zero-sum,fixed1,14.717863362715537
+underwater,astronaut,no stage,none,15.544866614560217
+underwater,astronaut,implemented,adaptive,12.720206071096193
+underwater,astronaut,implemented,fixed1,12.191865852119806
+underwater,astronaut,implemented zero-sum,adaptive,15.55863144518292
+underwater,astronaut,implemented zero-sum,fixed1,15.560904925307844
+underwater,astronaut,GL 4-dir K=3,adaptive,15.254346197901862
+underwater,astronaut,GL 4-dir K=3,fixed1,15.560904925307844
+underwater,astronaut,GL 4-dir K=3 zero-sum,adaptive,15.559942146242985
+underwater,astronaut,GL 4-dir K=3 zero-sum,fixed1,15.560904925307844
+underwater,astronaut,GL 8-dir K=3,adaptive,15.289955998239602
+underwater,astronaut,GL 8-dir K=3,fixed1,15.567961456092052
+underwater,astronaut,GL 8-dir K=3 zero-sum,adaptive,15.56715129071309
+underwater,astronaut,GL 8-dir K=3 zero-sum,fixed1,15.567961456092052
+underwater,chelsea,no stage,none,18.92270901494682
+underwater,chelsea,implemented,adaptive,15.132622923140408
+underwater,chelsea,implemented,fixed1,14.323344952420825
+underwater,chelsea,implemented zero-sum,adaptive,18.711175417582464
+underwater,chelsea,implemented zero-sum,fixed1,18.76833619390095
+underwater,chelsea,GL 4-dir K=3,adaptive,18.33052793304065
+underwater,chelsea,GL 4-dir K=3,fixed1,18.76833619390095
+underwater,chelsea,GL 4-dir K=3 zero-sum,adaptive,18.74420308208792
+underwater,chelsea,GL 4-dir K=3 zero-sum,fixed1,18.76833619390095
+underwater,chelsea,GL 8-dir K=3,adaptive,18.484764406138652
+underwater,chelsea,GL 8-dir K=3,fixed1,18.83684024366148
+underwater,chelsea,GL 8-dir K=3 zero-sum,adaptive,18.81929575398219
+underwater,chelsea,GL 8-dir K=3 zero-sum,fixed1,18.83684024366148
+underwater,coffee,no stage,none,15.113050355956823
+underwater,coffee,implemented,adaptive,13.415016878429576
+underwater,coffee,implemented,fixed1,12.965272591511496
+underwater,coffee,implemented zero-sum,adaptive,15.127923713633484
+underwater,coffee,implemented zero-sum,fixed1,15.128917089490248
+underwater,coffee,GL 4-dir K=3,adaptive,15.117850567418182
+underwater,coffee,GL 4-dir K=3,fixed1,15.128917089490248
+underwater,coffee,GL 4-dir K=3 zero-sum,adaptive,15.128737297169197
+underwater,coffee,GL 4-dir K=3 zero-sum,fixed1,15.128917089490248
+underwater,coffee,GL 8-dir K=3,adaptive,15.10914310876351
+underwater,coffee,GL 8-dir K=3,fixed1,15.133095234927236
+underwater,coffee,GL 8-dir K=3 zero-sum,adaptive,15.132590022996478
+underwater,coffee,GL 8-dir K=3 zero-sum,fixed1,15.133095234927236
+underwater,rocket,no stage,none,15.599903347135687
+underwater,rocket,implemented,adaptive,18.775751303940694
+underwater,rocket,implemented,fixed1,18.70756429560273
+underwater,rocket,implemented zero-sum,adaptive,15.562280336764756
+underwater,rocket,implemented zero-sum,fixed1,15.573878658597609
+underwater,rocket,GL 4-dir K=3,adaptive,16.338195979990367
+underwater,rocket,GL 4-dir K=3,fixed1,15.573878658597609
+underwater,rocket,GL 4-dir K=3 zero-sum,adaptive,15.565230191824336
+underwater,rocket,GL 4-dir K=3 zero-sum,fixed1,15.573878658597609
+underwater,rocket,GL 8-dir K=3,adaptive,16.341078103624636
+underwater,rocket,GL 8-dir K=3,fixed1,15.577255692954546
+underwater,rocket,GL 8-dir K=3 zero-sum,adaptive,15.573920240689427
+underwater,rocket,GL 8-dir K=3 zero-sum,fixed1,15.577255692954546
+underwater,immunohistochemistry,no stage,none,15.217682022342494
+underwater,immunohistochemistry,implemented,adaptive,10.922593011181998
+underwater,immunohistochemistry,implemented,fixed1,9.984918655094198
+underwater,immunohistochemistry,implemented zero-sum,adaptive,15.148065766967644
+underwater,immunohistochemistry,implemented zero-sum,fixed1,15.169521419478073
+underwater,immunohistochemistry,GL 4-dir K=3,adaptive,14.86192927899656
+underwater,immunohistochemistry,GL 4-dir K=3,fixed1,15.169521419478073
+underwater,immunohistochemistry,GL 4-dir K=3 zero-sum,adaptive,15.162735398273028
+underwater,immunohistochemistry,GL 4-dir K=3 zero-sum,fixed1,15.169521419478073
+underwater,immunohistochemistry,GL 8-dir K=3,adaptive,14.933556819602378
+underwater,immunohistochemistry,GL 8-dir K=3,fixed1,15.191531994509775
+underwater,immunohistochemistry,GL 8-dir K=3 zero-sum,adaptive,15.182232401473971
+underwater,immunohistochemistry,GL 8-dir K=3 zero-sum,fixed1,15.191531994509775
+underwater,retina,no stage,none,14.116816874164256
+underwater,retina,implemented,adaptive,12.891319509800843
+underwater,retina,implemented,fixed1,12.63429390841452
+underwater,retina,implemented zero-sum,adaptive,14.003707957266222
+underwater,retina,implemented zero-sum,fixed1,14.01069316834514
+underwater,retina,GL 4-dir K=3,adaptive,13.433156371896093
+underwater,retina,GL 4-dir K=3,fixed1,14.01069316834514
+underwater,retina,GL 4-dir K=3 zero-sum,adaptive,14.005779125862823
+underwater,retina,GL 4-dir K=3 zero-sum,fixed1,14.01069316834514
+underwater,retina,GL 8-dir K=3,adaptive,13.508944493877614
+underwater,retina,GL 8-dir K=3,fixed1,14.031672658480092
+underwater,retina,GL 8-dir K=3 zero-sum,adaptive,14.006859010696044
+underwater,retina,GL 8-dir K=3 zero-sum,fixed1,14.031672658480092
+underwater,brick,no stage,none,20.523624857615932
+underwater,brick,implemented,adaptive,16.927918351128987
+underwater,brick,implemented,fixed1,16.356963420786066
+underwater,brick,implemented zero-sum,adaptive,19.92634873340284
+underwater,brick,implemented zero-sum,fixed1,19.776901504970297
+underwater,brick,GL 4-dir K=3,adaptive,18.53220121365453
+underwater,brick,GL 4-dir K=3,fixed1,19.776901504970297
+underwater,brick,GL 4-dir K=3 zero-sum,adaptive,19.808955964550112
+underwater,brick,GL 4-dir K=3 zero-sum,fixed1,19.776901504970297
+underwater,brick,GL 8-dir K=3,adaptive,18.571143603245847
+underwater,brick,GL 8-dir K=3,fixed1,19.667233011199517
+underwater,brick,GL 8-dir K=3 zero-sum,adaptive,19.721220675498742
+underwater,brick,GL 8-dir K=3 zero-sum,fixed1,19.667233011199517
+underwater,grass,no stage,none,20.750087043763294
+underwater,grass,implemented,adaptive,16.596036294262266
+underwater,grass,implemented,fixed1,15.418743585922833
+underwater,grass,implemented zero-sum,adaptive,21.106147063901517
+underwater,grass,implemented zero-sum,fixed1,21.077977427346518
+underwater,grass,GL 4-dir K=3,adaptive,20.90348768746777
+underwater,grass,GL 4-dir K=3,fixed1,21.077977427346518
+underwater,grass,GL 4-dir K=3 zero-sum,adaptive,21.112292247973077
+underwater,grass,GL 4-dir K=3 zero-sum,fixed1,21.077977427346518
+underwater,grass,GL 8-dir K=3,adaptive,20.954524147634757
+underwater,grass,GL 8-dir K=3,fixed1,21.19144886365557
+underwater,grass,GL 8-dir K=3 zero-sum,adaptive,21.225731295841058
+underwater,grass,GL 8-dir K=3 zero-sum,fixed1,21.19144886365557
+underwater,text,no stage,none,21.918601117334653
+underwater,text,implemented,adaptive,14.353786430740968
+underwater,text,implemented,fixed1,13.852918476500546
+underwater,text,implemented zero-sum,adaptive,21.19563370878534
+underwater,text,implemented zero-sum,fixed1,21.488040106821657
+underwater,text,GL 4-dir K=3,adaptive,19.743994214992803
+underwater,text,GL 4-dir K=3,fixed1,21.488040106821657
+underwater,text,GL 4-dir K=3 zero-sum,adaptive,21.3253205780514
+underwater,text,GL 4-dir K=3 zero-sum,fixed1,21.488040106821657
+underwater,text,GL 8-dir K=3,adaptive,19.99955104294429
+underwater,text,GL 8-dir K=3,fixed1,21.406946940968503
+underwater,text,GL 8-dir K=3 zero-sum,adaptive,21.343632360281475
+underwater,text,GL 8-dir K=3 zero-sum,fixed1,21.406946940968503
+underwater,page,no stage,none,14.361780421411838
+underwater,page,implemented,adaptive,9.41500122402126
+underwater,page,implemented,fixed1,8.804236592111165
+underwater,page,implemented zero-sum,adaptive,14.528613065931177
+underwater,page,implemented zero-sum,fixed1,14.534451572271438
+underwater,page,GL 4-dir K=3,adaptive,13.42075249673551
+underwater,page,GL 4-dir K=3,fixed1,14.534451572271438
+underwater,page,GL 4-dir K=3 zero-sum,adaptive,14.534477191567595
+underwater,page,GL 4-dir K=3 zero-sum,fixed1,14.534451572271438
+underwater,page,GL 8-dir K=3,adaptive,13.639154189841584
+underwater,page,GL 8-dir K=3,fixed1,14.560870748528572
+underwater,page,GL 8-dir K=3 zero-sum,adaptive,14.560925058831813
+underwater,page,GL 8-dir K=3 zero-sum,fixed1,14.560870748528572
+underwater,moon,no stage,none,19.978250764445477
+underwater,moon,implemented,adaptive,16.880069370528638
+underwater,moon,implemented,fixed1,16.46156890022428
+underwater,moon,implemented zero-sum,adaptive,19.48687393975429
+underwater,moon,implemented zero-sum,fixed1,19.639928938848076
+underwater,moon,GL 4-dir K=3,adaptive,18.82770393855092
+underwater,moon,GL 4-dir K=3,fixed1,19.639928938848076
+underwater,moon,GL 4-dir K=3 zero-sum,adaptive,19.52991952746343
+underwater,moon,GL 4-dir K=3 zero-sum,fixed1,19.639928938848076
+underwater,moon,GL 8-dir K=3,adaptive,19.080726191379334
+underwater,moon,GL 8-dir K=3,fixed1,19.70605334853558
+underwater,moon,GL 8-dir K=3 zero-sum,adaptive,19.636169775677402
+underwater,moon,GL 8-dir K=3 zero-sum,fixed1,19.70605334853558
+underwater,hubble_deep_field,no stage,none,9.798248124213272
+underwater,hubble_deep_field,implemented,adaptive,11.128831646671742
+underwater,hubble_deep_field,implemented,fixed1,11.947372475513538
+underwater,hubble_deep_field,implemented zero-sum,adaptive,9.772586453181818
+underwater,hubble_deep_field,implemented zero-sum,fixed1,9.77447142083576
+underwater,hubble_deep_field,GL 4-dir K=3,adaptive,9.589088985076561
+underwater,hubble_deep_field,GL 4-dir K=3,fixed1,9.77447142083576
+underwater,hubble_deep_field,GL 4-dir K=3 zero-sum,adaptive,9.773336447212708
+underwater,hubble_deep_field,GL 4-dir K=3 zero-sum,fixed1,9.77447142083576
+underwater,hubble_deep_field,GL 8-dir K=3,adaptive,9.615516219456616
+underwater,hubble_deep_field,GL 8-dir K=3,fixed1,9.776346343236193
+underwater,hubble_deep_field,GL 8-dir K=3 zero-sum,adaptive,9.775155854749643
+underwater,hubble_deep_field,GL 8-dir K=3 zero-sum,fixed1,9.776346343236193
+underwater,horse,no stage,none,10.199199634384488
+underwater,horse,implemented,adaptive,6.794390039071715
+underwater,horse,implemented,fixed1,6.218615366767601
+underwater,horse,implemented zero-sum,adaptive,10.233830875632306
+underwater,horse,implemented zero-sum,fixed1,10.23625998123019
+underwater,horse,GL 4-dir K=3,adaptive,9.74636880154481
+underwater,horse,GL 4-dir K=3,fixed1,10.23625998123019
+underwater,horse,GL 4-dir K=3 zero-sum,adaptive,10.235745128538682
+underwater,horse,GL 4-dir K=3 zero-sum,fixed1,10.23625998123019
+underwater,horse,GL 8-dir K=3,adaptive,9.731402139138583
+underwater,horse,GL 8-dir K=3,fixed1,10.247439676012938
+underwater,horse,GL 8-dir K=3 zero-sum,adaptive,10.246127493027814
+underwater,horse,GL 8-dir K=3 zero-sum,fixed1,10.247439676012938
+underwater,camera,no stage,none,15.045458647655472
+underwater,camera,implemented,adaptive,11.779037327604412
+underwater,camera,implemented,fixed1,11.44719334527444
+underwater,camera,implemented zero-sum,adaptive,14.951099747076936
+underwater,camera,implemented zero-sum,fixed1,14.942020154051118
+underwater,camera,GL 4-dir K=3,adaptive,14.680060732606462
+underwater,camera,GL 4-dir K=3,fixed1,14.942020154051118
+underwater,camera,GL 4-dir K=3 zero-sum,adaptive,14.95017536190896
+underwater,camera,GL 4-dir K=3 zero-sum,fixed1,14.942020154051118
+underwater,camera,GL 8-dir K=3,adaptive,14.738920655963872
+underwater,camera,GL 8-dir K=3,fixed1,14.949198576650351
+underwater,camera,GL 8-dir K=3 zero-sum,adaptive,14.95812544348492
+underwater,camera,GL 8-dir K=3 zero-sum,fixed1,14.949198576650351
+lowlight,astronaut,no stage,none,15.906001752173399
+lowlight,astronaut,implemented,adaptive,14.200863929997748
+lowlight,astronaut,implemented,fixed1,13.180759703078355
+lowlight,astronaut,implemented zero-sum,adaptive,15.877371591651192
+lowlight,astronaut,implemented zero-sum,fixed1,15.873444089672253
+lowlight,astronaut,GL 4-dir K=3,adaptive,15.992713378444348
+lowlight,astronaut,GL 4-dir K=3,fixed1,15.873444089672253
+lowlight,astronaut,GL 4-dir K=3 zero-sum,adaptive,15.875743913146792
+lowlight,astronaut,GL 4-dir K=3 zero-sum,fixed1,15.873444089672253
+lowlight,astronaut,GL 8-dir K=3,adaptive,15.984087358793841
+lowlight,astronaut,GL 8-dir K=3,fixed1,15.865505334167242
+lowlight,astronaut,GL 8-dir K=3 zero-sum,adaptive,15.868275545878559
+lowlight,astronaut,GL 8-dir K=3 zero-sum,fixed1,15.865505334167242
+lowlight,chelsea,no stage,none,15.53124068192658
+lowlight,chelsea,implemented,adaptive,14.454687042141796
+lowlight,chelsea,implemented,fixed1,13.995214266663321
+lowlight,chelsea,implemented zero-sum,adaptive,15.44101234772355
+lowlight,chelsea,implemented zero-sum,fixed1,15.430849793921018
+lowlight,chelsea,GL 4-dir K=3,adaptive,15.419099412864847
+lowlight,chelsea,GL 4-dir K=3,fixed1,15.430849793921018
+lowlight,chelsea,GL 4-dir K=3 zero-sum,adaptive,15.436281615177235
+lowlight,chelsea,GL 4-dir K=3 zero-sum,fixed1,15.430849793921018
+lowlight,chelsea,GL 8-dir K=3,adaptive,15.439042768579236
+lowlight,chelsea,GL 8-dir K=3,fixed1,15.444398951174406
+lowlight,chelsea,GL 8-dir K=3 zero-sum,adaptive,15.450097277055967
+lowlight,chelsea,GL 8-dir K=3 zero-sum,fixed1,15.444398951174406
+lowlight,coffee,no stage,none,15.972438380009253
+lowlight,coffee,implemented,adaptive,15.348479703680905
+lowlight,coffee,implemented,fixed1,14.689353276578629
+lowlight,coffee,implemented zero-sum,adaptive,15.959721316231537
+lowlight,coffee,implemented zero-sum,fixed1,15.958075701897119
+lowlight,coffee,GL 4-dir K=3,adaptive,15.976668126122796
+lowlight,coffee,GL 4-dir K=3,fixed1,15.958075701897119
+lowlight,coffee,GL 4-dir K=3 zero-sum,adaptive,15.958696284725868
+lowlight,coffee,GL 4-dir K=3 zero-sum,fixed1,15.958075701897119
+lowlight,coffee,GL 8-dir K=3,adaptive,15.970780806223981
+lowlight,coffee,GL 8-dir K=3,fixed1,15.947134761693665
+lowlight,coffee,GL 8-dir K=3 zero-sum,adaptive,15.948388073594481
+lowlight,coffee,GL 8-dir K=3 zero-sum,fixed1,15.947134761693665
+lowlight,rocket,no stage,none,16.705194191066862
+lowlight,rocket,implemented,adaptive,16.70326857454028
+lowlight,rocket,implemented,fixed1,16.62850652681047
+lowlight,rocket,implemented zero-sum,adaptive,16.656946197032163
+lowlight,rocket,implemented zero-sum,fixed1,16.65550030458531
+lowlight,rocket,GL 4-dir K=3,adaptive,16.64965707928183
+lowlight,rocket,GL 4-dir K=3,fixed1,16.65550030458531
+lowlight,rocket,GL 4-dir K=3 zero-sum,adaptive,16.65631406439872
+lowlight,rocket,GL 4-dir K=3 zero-sum,fixed1,16.65550030458531
+lowlight,rocket,GL 8-dir K=3,adaptive,16.644180597633632
+lowlight,rocket,GL 8-dir K=3,fixed1,16.64760441425466
+lowlight,rocket,GL 8-dir K=3 zero-sum,adaptive,16.64846623804668
+lowlight,rocket,GL 8-dir K=3 zero-sum,fixed1,16.64760441425466
+lowlight,immunohistochemistry,no stage,none,12.810192877402034
+lowlight,immunohistochemistry,implemented,adaptive,11.22846722437658
+lowlight,immunohistochemistry,implemented,fixed1,9.876824237142188
+lowlight,immunohistochemistry,implemented zero-sum,adaptive,12.684020746935472
+lowlight,immunohistochemistry,implemented zero-sum,fixed1,12.696338646404573
+lowlight,immunohistochemistry,GL 4-dir K=3,adaptive,13.469503355931971
+lowlight,immunohistochemistry,GL 4-dir K=3,fixed1,12.696338646404573
+lowlight,immunohistochemistry,GL 4-dir K=3 zero-sum,adaptive,12.682704060327127
+lowlight,immunohistochemistry,GL 4-dir K=3 zero-sum,fixed1,12.696338646404573
+lowlight,immunohistochemistry,GL 8-dir K=3,adaptive,13.4050933049933
+lowlight,immunohistochemistry,GL 8-dir K=3,fixed1,12.687252642445177
+lowlight,immunohistochemistry,GL 8-dir K=3 zero-sum,adaptive,12.683183084947443
+lowlight,immunohistochemistry,GL 8-dir K=3 zero-sum,fixed1,12.687252642445177
+lowlight,retina,no stage,none,14.67378866805465
+lowlight,retina,implemented,adaptive,15.293280834325078
+lowlight,retina,implemented,fixed1,15.300574370351622
+lowlight,retina,implemented zero-sum,adaptive,14.900914105737622
+lowlight,retina,implemented zero-sum,fixed1,14.88693780015227
+lowlight,retina,GL 4-dir K=3,adaptive,14.944916381731982
+lowlight,retina,GL 4-dir K=3,fixed1,14.88693780015227
+lowlight,retina,GL 4-dir K=3 zero-sum,adaptive,14.9046953027175
+lowlight,retina,GL 4-dir K=3 zero-sum,fixed1,14.88693780015227
+lowlight,retina,GL 8-dir K=3,adaptive,14.930567785202594
+lowlight,retina,GL 8-dir K=3,fixed1,14.881231477658437
+lowlight,retina,GL 8-dir K=3 zero-sum,adaptive,14.896072532436992
+lowlight,retina,GL 8-dir K=3 zero-sum,fixed1,14.881231477658437
+lowlight,brick,no stage,none,14.551569113515175
+lowlight,brick,implemented,adaptive,15.142711881695423
+lowlight,brick,implemented,fixed1,14.577022991899007
+lowlight,brick,implemented zero-sum,adaptive,14.258682646256926
+lowlight,brick,implemented zero-sum,fixed1,14.26509167303426
+lowlight,brick,GL 4-dir K=3,adaptive,14.236735991633896
+lowlight,brick,GL 4-dir K=3,fixed1,14.26509167303426
+lowlight,brick,GL 4-dir K=3 zero-sum,adaptive,14.249193610374915
+lowlight,brick,GL 4-dir K=3 zero-sum,fixed1,14.26509167303426
+lowlight,brick,GL 8-dir K=3,adaptive,14.192989082497995
+lowlight,brick,GL 8-dir K=3,fixed1,14.184115420403757
+lowlight,brick,GL 8-dir K=3 zero-sum,adaptive,14.16101379186118
+lowlight,brick,GL 8-dir K=3 zero-sum,fixed1,14.184115420403757
+lowlight,grass,no stage,none,15.514971735081765
+lowlight,grass,implemented,adaptive,15.292402449475578
+lowlight,grass,implemented,fixed1,14.528388848218505
+lowlight,grass,implemented zero-sum,adaptive,15.115678259652869
+lowlight,grass,implemented zero-sum,fixed1,15.09754417930524
+lowlight,grass,GL 4-dir K=3,adaptive,15.037916393678445
+lowlight,grass,GL 4-dir K=3,fixed1,15.09754417930524
+lowlight,grass,GL 4-dir K=3 zero-sum,adaptive,15.094947729816086
+lowlight,grass,GL 4-dir K=3 zero-sum,fixed1,15.09754417930524
+lowlight,grass,GL 8-dir K=3,adaptive,14.933160086142298
+lowlight,grass,GL 8-dir K=3,fixed1,14.988284802080539
+lowlight,grass,GL 8-dir K=3 zero-sum,adaptive,14.960531447278944
+lowlight,grass,GL 8-dir K=3 zero-sum,fixed1,14.988284802080539
+lowlight,text,no stage,none,16.628691328368056
+lowlight,text,implemented,adaptive,12.932115933489488
+lowlight,text,implemented,fixed1,12.733092474575638
+lowlight,text,implemented zero-sum,adaptive,16.4337890391183
+lowlight,text,implemented zero-sum,fixed1,16.463902131646268
+lowlight,text,GL 4-dir K=3,adaptive,16.488501382166657
+lowlight,text,GL 4-dir K=3,fixed1,16.463902131646268
+lowlight,text,GL 4-dir K=3 zero-sum,adaptive,16.446235312290447
+lowlight,text,GL 4-dir K=3 zero-sum,fixed1,16.463902131646268
+lowlight,text,GL 8-dir K=3,adaptive,16.506417444339455
+lowlight,text,GL 8-dir K=3,fixed1,16.490766776023133
+lowlight,text,GL 8-dir K=3 zero-sum,adaptive,16.475540419155575
+lowlight,text,GL 8-dir K=3 zero-sum,fixed1,16.490766776023133
+lowlight,page,no stage,none,12.194435631068876
+lowlight,page,implemented,adaptive,8.891542782995774
+lowlight,page,implemented,fixed1,8.71679263606669
+lowlight,page,implemented zero-sum,adaptive,12.259717306930447
+lowlight,page,implemented zero-sum,fixed1,12.25942351025892
+lowlight,page,GL 4-dir K=3,adaptive,12.089171531244023
+lowlight,page,GL 4-dir K=3,fixed1,12.25942351025892
+lowlight,page,GL 4-dir K=3 zero-sum,adaptive,12.263136450695718
+lowlight,page,GL 4-dir K=3 zero-sum,fixed1,12.25942351025892
+lowlight,page,GL 8-dir K=3,adaptive,12.122407844672844
+lowlight,page,GL 8-dir K=3,fixed1,12.279767665488897
+lowlight,page,GL 8-dir K=3 zero-sum,adaptive,12.284497522033234
+lowlight,page,GL 8-dir K=3 zero-sum,fixed1,12.279767665488897
+lowlight,moon,no stage,none,17.91901178842524
+lowlight,moon,implemented,adaptive,16.56334999763799
+lowlight,moon,implemented,fixed1,15.538168462631866
+lowlight,moon,implemented zero-sum,adaptive,17.595814223211846
+lowlight,moon,implemented zero-sum,fixed1,17.551915732343012
+lowlight,moon,GL 4-dir K=3,adaptive,18.074770119302016
+lowlight,moon,GL 4-dir K=3,fixed1,17.551915732343012
+lowlight,moon,GL 4-dir K=3 zero-sum,adaptive,17.58195442963779
+lowlight,moon,GL 4-dir K=3 zero-sum,fixed1,17.551915732343012
+lowlight,moon,GL 8-dir K=3,adaptive,18.066149579048037
+lowlight,moon,GL 8-dir K=3,fixed1,17.629915203407617
+lowlight,moon,GL 8-dir K=3 zero-sum,adaptive,17.65182929344618
+lowlight,moon,GL 8-dir K=3 zero-sum,fixed1,17.629915203407617
+lowlight,hubble_deep_field,no stage,none,22.82079938088323
+lowlight,hubble_deep_field,implemented,adaptive,23.272630638782275
+lowlight,hubble_deep_field,implemented,fixed1,23.18756003699747
+lowlight,hubble_deep_field,implemented zero-sum,adaptive,22.669249073105856
+lowlight,hubble_deep_field,implemented zero-sum,fixed1,22.662441133201106
+lowlight,hubble_deep_field,GL 4-dir K=3,adaptive,22.670607864737484
+lowlight,hubble_deep_field,GL 4-dir K=3,fixed1,22.662441133201106
+lowlight,hubble_deep_field,GL 4-dir K=3 zero-sum,adaptive,22.665105836006543
+lowlight,hubble_deep_field,GL 4-dir K=3 zero-sum,fixed1,22.662441133201106
+lowlight,hubble_deep_field,GL 8-dir K=3,adaptive,22.663813953152633
+lowlight,hubble_deep_field,GL 8-dir K=3,fixed1,22.654413995964326
+lowlight,hubble_deep_field,GL 8-dir K=3 zero-sum,adaptive,22.65796745411254
+lowlight,hubble_deep_field,GL 8-dir K=3 zero-sum,fixed1,22.654413995964326
+lowlight,horse,no stage,none,14.064830553932183
+lowlight,horse,implemented,adaptive,7.948984665551855
+lowlight,horse,implemented,fixed1,7.982665969349353
+lowlight,horse,implemented zero-sum,adaptive,14.091269462624362
+lowlight,horse,implemented zero-sum,fixed1,14.091372587718006
+lowlight,horse,GL 4-dir K=3,adaptive,13.853694232524912
+lowlight,horse,GL 4-dir K=3,fixed1,14.091372587718006
+lowlight,horse,GL 4-dir K=3 zero-sum,adaptive,14.093032075772884
+lowlight,horse,GL 4-dir K=3 zero-sum,fixed1,14.091372587718006
+lowlight,horse,GL 8-dir K=3,adaptive,13.858816939105015
+lowlight,horse,GL 8-dir K=3,fixed1,14.098515756944641
+lowlight,horse,GL 8-dir K=3 zero-sum,adaptive,14.099247240752025
+lowlight,horse,GL 8-dir K=3 zero-sum,fixed1,14.098515756944641
+lowlight,camera,no stage,none,13.859883551773839
+lowlight,camera,implemented,adaptive,11.728901293164164
+lowlight,camera,implemented,fixed1,10.989720804969895
+lowlight,camera,implemented zero-sum,adaptive,13.837474956415472
+lowlight,camera,implemented zero-sum,fixed1,13.824593038179081
+lowlight,camera,GL 4-dir K=3,adaptive,13.869322340598933
+lowlight,camera,GL 4-dir K=3,fixed1,13.824593038179081
+lowlight,camera,GL 4-dir K=3 zero-sum,adaptive,13.834659161158136
+lowlight,camera,GL 4-dir K=3 zero-sum,fixed1,13.824593038179081
+lowlight,camera,GL 8-dir K=3,adaptive,13.87253981882006
+lowlight,camera,GL 8-dir K=3,fixed1,13.82743240237894
+lowlight,camera,GL 8-dir K=3 zero-sum,adaptive,13.835941213038632
+lowlight,camera,GL 8-dir K=3 zero-sum,fixed1,13.82743240237894

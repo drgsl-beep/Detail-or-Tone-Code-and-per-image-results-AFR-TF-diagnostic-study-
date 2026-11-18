@@ -1,0 +1,4 @@
+degradation,best_alpha,best_PSNR,adaptive_PSNR,adaptive_beats_best
+haze,0.7,13.901688309654903,14.674944297262106,True
+underwater,0.7,12.99302371769648,13.40947002725855,True
+lowlight,0.7,13.774061701529961,14.214406210846779,True
